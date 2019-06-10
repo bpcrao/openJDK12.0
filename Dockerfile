@@ -1,6 +1,7 @@
 FROM debian:stretch-slim
 
 RUN apt-get update
+RUN apt-get update
 
 RUN apt-get install -y python-setuptools python python-pip
 
